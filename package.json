@@ -1,0 +1,25 @@
+{
+  "name": "broadcast-server",
+  "version": "1.0.0",
+  "description": "A CLI-based WebSocket broadcast server that enables real-time communication between multiple clients. Messages sent by any connected client are instantly broadcast to all active clients. Built to learn WebSockets, async programming, and client-server architecture.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmedsaleem1/Broadcast-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mahmedsaleem1/Broadcast-Server/issues"
+  },
+  "homepage": "https://github.com/mahmedsaleem1/Broadcast-Server#readme",
+  "dependencies": {
+    "ioredis": "^5.11.1",
+    "ws": "^8.21.0"
+  }
+}
